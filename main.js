@@ -4,10 +4,6 @@ const kelvinInput = document.getElementById("kelvin");
 
 const inputs = document.getElementsByClassName("input");
 
-function roundNum(num){
-    return Math.round(num*100)/100;
-}
-
 for (let i = 0; i < inputs.length; i++){
     let input = inputs[i];
     input. addEventListener("input", function (e) {
